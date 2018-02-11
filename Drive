@@ -46,159 +46,159 @@ public class Drive extends IterativeRobot{
 		timer.reset();
 		timer.start();
 		if(color == DriverStation.Alliance.Blue){
-				if(station == 1){
-            /////////////TC1/////////////
-						if(timer.get()0 && timer.get() <= 0.428575){	            //.428575(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.928575 && timer.get() <= 1.428575){	  //.5(s)- .5(s) interval
-							  Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.928575 && timer.get() <= 2.785715){	  //.85714(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 2.785715 && timer.get() <= 3.285715){	  //.5(s)- .5(s) interval
-							   Driver.tankDrive(0.3,-0.3);
-						}
-            Driver.stopMotor();
-						if(timer.get() > 3.785715 && timer.get() <= 8.785715){	  //5.0(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-            if(timer.get() > 9.285715 && timer.get() <= 9.785715){	  //.5(s)- no interval
-							Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-					}else if(station == 2){
-          /////////////TC2/////////////
-						if(timer.get() > 0 && timer.get() <= 0.42857){				    //.42857(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.92857 && timer.get() <= 1.17857){	    //.25(s)- .5(s) interval
-							Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.67857 && timer.get() <= 6.31214){	    //4.63357(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 6.81214 && timer.get() <= 7.06214){	    //.25(s)- .5(s) interval
-							Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 7.56214 && timer.get() <= 9.708){		    //2.14586(s)- no interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-					}if(station == 3){
-          /////////////TC3/////////////
-						if(timer.get()0 && timer.get() <= 0.428575){	            //.428575(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.928575 && timer.get() <= 1.428575){	  //.5(s)- .5(s) interval
-							  Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.928575 && timer.get() <= 2.785715){	  //.85714(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 2.785715 && timer.get() <= 3.285715){	  //.5(s)- .5(s) interval
-							   Driver.tankDrive(-0.3,0.3);
-						}
-            Driver.stopMotor();
-						if(timer.get() > 3.785715 && timer.get() <= 8.785715){	  //5.0(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-            if(timer.get() > 9.285715 && timer.get() <= 9.785715){	  //.5(s)- no interval
-							Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
-					}
-				}else{
-					if(station == 1){
-          /////////////TC4/////////////
-						if(timer.get()0 && timer.get() <= 0.428575){	            //.428575(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.928575 && timer.get() <= 1.428575){	  //.5(s)- .5(s) interval
-							  Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.928575 && timer.get() <= 2.785715){	  //.85714(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 2.785715 && timer.get() <= 3.285715){	  //.5(s)- .5(s) interval
-							   Driver.tankDrive(0.3,-0.3);
-						}
-            Driver.stopMotor();
-						if(timer.get() > 3.785715 && timer.get() <= 8.785715){	  //5.0(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-            if(timer.get() > 9.285715 && timer.get() <= 9.785715){	  //.5(s)- no interval
-							Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-					if(station == 2){
-          /////////////TC5/////////////
-						if(timer.get() > 0 && timer.get() <= 0.42857){				    //.42857(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.92857 && timer.get() <= 1.17857){	    //.25(s)- .5(s) interval
-							Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.67857 && timer.get() <= 6.31214){	    //4.63357(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 6.81214 && timer.get() <= 7.06214){	    //.25(s)- .5(s) interval
-							Driver.tankDrive(-0.3,0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 7.56214 && timer.get() <= 9.708){		    //2.14586(s)- no interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-					}
-					if(station == 3){
-          /////////////TC6/////////////
-						if(timer.get()0 && timer.get() <= 0.428575){	            //.428575(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 0.928575 && timer.get() <= 1.428575){	  //.5(s)- .5(s) interval
-							  Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 1.928575 && timer.get() <= 2.785715){	  //.85714(s)- .5(s) interval
-							  Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-						if(timer.get() > 2.785715 && timer.get() <= 3.285715){	  //.5(s)- .5(s) interval
-							   Driver.tankDrive(-0.3,0.3);
-						}
-            Driver.stopMotor();
-						if(timer.get() > 3.785715 && timer.get() <= 8.785715){	  //5.0(s)- .5(s) interval
-							Driver.arcadeDrive(0.3, 0);
-						}
-						Driver.stopMotor();
-            if(timer.get() > 9.285715 && timer.get() <= 9.785715){	  //.5(s)- no interval
-							Driver.tankDrive(0.3,-0.3);
-						}
-						Driver.stopMotor();
+			if(station == 1){
+            		/////////////TC1/////////////
+				if(timer.get()0 && timer.get() <= 0.428575){	     	//.428575(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.928575 && timer.get() <= 1.428575){	//.5(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.928575 && timer.get() <= 2.785715){	//.85714(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+            			Driver.stopMotor();
+				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+            			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+			}else if(station == 2){
+          			/////////////TC2/////////////
+				if(timer.get() > 0 && timer.get() <= 0.42857){		//.42857(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.92857 && timer.get() <= 1.17857){	//.25(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.67857 && timer.get() <= 6.31214){	//4.63357(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 6.81214 && timer.get() <= 7.06214){	//.25(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 7.56214 && timer.get() <= 9.708){	//2.14586(s)- no interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+			}else if(station == 3){
+          			/////////////TC3/////////////
+				if(timer.get()0 && timer.get() <= 0.428575){	       //.428575(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.928575 && timer.get() <= 1.428575){	//.5(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.928575 && timer.get() <= 2.785715){	//.85714(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+            			Driver.stopMotor();
+				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+           			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
+			}
+		}else{
+			if(station == 1){
+         			/////////////TC4/////////////
+				if(timer.get()0 && timer.get() <= 0.428575){	       	//.428575(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.928575 && timer.get() <= 1.428575){	//.5(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.928575 && timer.get() <= 2.785715){	//.85714(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+            			Driver.stopMotor();
+				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+            			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+			if(station == 2){
+          			/////////////TC5/////////////
+				if(timer.get() > 0 && timer.get() <= 0.42857){		//.42857(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.92857 && timer.get() <= 1.17857){	//.25(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.67857 && timer.get() <= 6.31214){	//4.63357(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 6.81214 && timer.get() <= 7.06214){	//.25(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 7.56214 && timer.get() <= 9.708){	//2.14586(s)- no interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+			}
+			if(station == 3){
+          			/////////////TC6/////////////
+				if(timer.get()0 && timer.get() <= 0.428575){	       	//.428575(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 0.928575 && timer.get() <= 1.428575){	//.5(s)- .5(s) interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 1.928575 && timer.get() <= 2.785715){	//.85714(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+					Driver.tankDrive(-0.3,0.3);
+				}
+            			Driver.stopMotor();
+				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+					Driver.arcadeDrive(0.3, 0);
+				}
+				Driver.stopMotor();
+           			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+					Driver.tankDrive(0.3,-0.3);
+				}
+				Driver.stopMotor();
 					}
 			  }
-	    }
+	}
      }
     }
