@@ -197,8 +197,8 @@ public class Drive extends IterativeRobot{
 					Driver.tankDrive(0.3,-0.3);
 				}
 				Driver.stopMotor();
-					}
-			  }
+			}
+		}
 	}
      }
     }
