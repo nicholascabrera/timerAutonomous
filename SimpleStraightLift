@@ -1,7 +1,12 @@
-if(timer.get() > 0 && timer.get() <= 10.0)    //Goes forward for 10 seconds
+if(timer.get() > 0 && timer.get() <= 10.0)    //Goes forward for 10 seconds at 30% speed
 {
 	Driver.arcadeDrive(0.3,0);
 }
+//code for a bit longer and 2x as fast
+//if(timer.get() > 0 && timer.get() <= 15.0)    //Goes forward for 15 seconds at 60% speed
+//{
+//	Driver.arcadeDrive(0.6,0);
+//}
 Driver.stopMotor();
 if(timer.get()>10.5 && timer.get() <= 12.0)   //Lift goes up for 1.5(s)(a guess)
 {
