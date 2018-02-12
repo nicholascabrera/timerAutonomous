@@ -60,15 +60,15 @@ public class Drive extends IterativeRobot{
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+				if(timer.get() > 3.285715 && timer.get() <= 3.785715){	//.5(s)- .5(s) interval
 					Driver.tankDrive(0.3,-0.3);
 				}
             			Driver.stopMotor();
-				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+				if(timer.get() > 4.285715 && timer.get() <= 9.285715){	//5.0(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-            			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+            			if(timer.get() > 9.785715 && timer.get() <= 10.285715){	//.5(s)- no interval
 					Driver.tankDrive(-0.3,0.3);
 				}
 				Driver.stopMotor();
@@ -96,7 +96,7 @@ public class Drive extends IterativeRobot{
 				Driver.stopMotor();
 			}else if(station == 3){
           			/////////////TC3/////////////
-				if(timer.get()0 && timer.get() <= 0.428575){	       //.428575(s)- .5(s) interval
+				if(timer.get()0 && timer.get() <= 0.428575){	     	//.428575(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
@@ -108,15 +108,15 @@ public class Drive extends IterativeRobot{
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+				if(timer.get() > 3.285715 && timer.get() <= 3.785715){	//.5(s)- .5(s) interval
 					Driver.tankDrive(-0.3,0.3);
 				}
             			Driver.stopMotor();
-				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+				if(timer.get() > 4.285715 && timer.get() <= 9.285715){	//5.0(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-           			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+            			if(timer.get() > 9.785715 && timer.get() <= 10.285715){	//.5(s)- no interval
 					Driver.tankDrive(0.3,-0.3);
 				}
 				Driver.stopMotor();
@@ -124,7 +124,7 @@ public class Drive extends IterativeRobot{
 		}else{
 			if(station == 1){
          			/////////////TC4/////////////
-				if(timer.get()0 && timer.get() <= 0.428575){	       	//.428575(s)- .5(s) interval
+				if(timer.get()0 && timer.get() <= 0.428575){	     	//.428575(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
@@ -136,15 +136,15 @@ public class Drive extends IterativeRobot{
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+				if(timer.get() > 3.285715 && timer.get() <= 3.785715){	//.5(s)- .5(s) interval
 					Driver.tankDrive(0.3,-0.3);
 				}
             			Driver.stopMotor();
-				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+				if(timer.get() > 4.285715 && timer.get() <= 9.285715){	//5.0(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-            			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+            			if(timer.get() > 9.785715 && timer.get() <= 10.285715){	//.5(s)- no interval
 					Driver.tankDrive(-0.3,0.3);
 				}
 				Driver.stopMotor();
@@ -173,7 +173,7 @@ public class Drive extends IterativeRobot{
 			}
 			if(station == 3){
           			/////////////TC6/////////////
-				if(timer.get()0 && timer.get() <= 0.428575){	       	//.428575(s)- .5(s) interval
+				if(timer.get()0 && timer.get() <= 0.428575){	     	//.428575(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
@@ -185,15 +185,15 @@ public class Drive extends IterativeRobot{
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-				if(timer.get() > 2.785715 && timer.get() <= 3.285715){	//.5(s)- .5(s) interval
+				if(timer.get() > 3.285715 && timer.get() <= 3.785715){	//.5(s)- .5(s) interval
 					Driver.tankDrive(-0.3,0.3);
 				}
             			Driver.stopMotor();
-				if(timer.get() > 3.785715 && timer.get() <= 8.785715){	//5.0(s)- .5(s) interval
+				if(timer.get() > 4.285715 && timer.get() <= 9.285715){	//5.0(s)- .5(s) interval
 					Driver.arcadeDrive(0.3, 0);
 				}
 				Driver.stopMotor();
-           			if(timer.get() > 9.285715 && timer.get() <= 9.785715){	//.5(s)- no interval
+            			if(timer.get() > 9.785715 && timer.get() <= 10.285715){	//.5(s)- no interval
 					Driver.tankDrive(0.3,-0.3);
 				}
 				Driver.stopMotor();
