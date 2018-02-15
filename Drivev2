@@ -72,31 +72,31 @@
 		}
 		
 		///////////DRIVERSTATION 3///////////
-		if(timer.get()>0 && timer.get() <= 1)	     		      //.428575(s)- .5(s) interval
+		if(timer.get()>0 && timer.get() <= 1)	     		//.428575(s)- .5(s) interval
 			Driver.arcadeDrive(0.3, 0);
 		
 		if(timer.get()>1 && timer.get()<=1.75)
 			Driver.stopMotor();
 		
-		if(timer.get() > 1.75 && timer.get() <= 2.75)		   //.5(s)- .5(s) interval
+		if(timer.get() > 1.75 && timer.get() <= 2.75)		//.5(s)- .5(s) interval
 			Driver.tankDrive(0.3,-0.3);
 		
 		if(timer.get()>2.75 && timer.get()<=3.5)
 			Driver.stopMotor();
 		
-		if(timer.get() > 3.5 && timer.get() <= 6.5)		    //.85714(s)- .5(s) interval
+		if(timer.get() > 3.5 && timer.get() <= 6.5)		//.85714(s)- .5(s) interval
 			Driver.arcadeDrive(0.3, 0);
 		
 		if(timer.get()>6.5 && timer.get() <= 7.25)
 			Driver.stopMotor();
 		
-		if(timer.get() > 7.25 && timer.get() <= 8.25)		  //.5(s)- .5(s) interval
+		if(timer.get() > 7.25 && timer.get() <= 8.25)		//.5(s)- .5(s) interval
 			Driver.tankDrive(-0.3,0.3);
 		
 		if(timer.get()>8.25 && timer.get()<=9)
       Driver.stopMotor();
 		
-		if(timer.get() > 9 && timer.get() <= 11)		      //5.0(s)- .5(s) interval
+		if(timer.get() > 9 && timer.get() <= 11)		//5.0(s)- .5(s) interval
 			Driver.arcadeDrive(0.3, 0);
 		
 		if(timer.get()>11 && timer.get() <= 11.75)
