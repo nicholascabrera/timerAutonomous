@@ -1,29 +1,73 @@
     ///////////PATH A11///////////
-    if(timer.get()>0 && timer.get() <= 5){	     		//.428575(s)- .5(s) interval STEP 1
+    		if(timer.get()>0 && timer.get() <= ){	     	//STEP 1
 			Driver.arcadeDrive(-0.5, 0);
 		}
-		if(timer.get()>5 && timer.get()<=5.75)
+		if(timer.get()> && timer.get()<)
 			Driver.stopMotor();
-		if(timer.get() > 5.75 && timer.get() <= 6.25){		//.5(s)- .5(s) interval STEP 2
+		if(timer.get() >  && timer.get() <= ){		//STEP 2
 			Driver.tankDrive(-0.5,0.5);
 		}
-		if(timer.get() > 6.25 && timer.get() <= 6.75){		//.85714(s)- .5(s) interval STEP 3
+		if(timer.get() >  && timer.get() <= ){		//STEP 3
 			Driver.arcadeDrive(-0.5, 0);
 		}
-		if(timer.get()>6.75 && timer.get() <= 7.5)
+		if(timer.get()> && timer.get() <= )
 			Driver.stopMotor();
 		
 	///////////PATH A21///////////	
-	if(timer.get()>0 && timer.get() <= ){	     		//.428575(s)- .5(s) interval STEP 1
+		if(timer.get()>0 && timer.get() <= ){	     	//STEP 1
 			Driver.arcadeDrive(-0.5, 0);
 		}
 		if(timer.get()> && timer.get()<=)
 			Driver.stopMotor();
-		if(timer.get() >  && timer.get() <= ){		//.5(s)- .5(s) interval STEP 2
+		if(timer.get() >  && timer.get() <= ){		//STEP 2
 			Driver.tankDrive(-0.5,0.5);
 		}
-		if(timer.get() >  && timer.get() <= ){		//.85714(s)- .5(s) interval STEP 3
+		if(timer.get() >  && timer.get() <= ){		//STEP 3
 			Driver.arcadeDrive(-0.5, 0);
 		}
 		if(timer.get()> && timer.get() <= )
+			Driver.stopMotor();
+	///////////PATH A30///////////
+		if(timer.get() > 0 && timer.get() <= ){		//STEP 1
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get() <= )
+			Driver.stopMotor();
+	///////////PATH B11///////////
+		if(timer.get()>0 && timer.get() <= ){	     	//STEP 1
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get()<)
+			Driver.stopMotor();
+		if(timer.get() >  && timer.get() <= ){		//STEP 2
+			Driver.tankDrive(-0.5,0.5);
+		}
+		if(timer.get() >  && timer.get() <= ){		//STEP 3
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get() <= )
+			Driver.stopMotor();
+		if(timer.get()>0 && timer.get() <= ){	     	//STEP 4
+			Driver.tankDrive(0.5,-0.5);
+		}
+		if(timer.get()> && timer.get()<)
+			Driver.stopMotor();
+	///////////PATH B12///////////
+		if(timer.get()>0 && timer.get() <= ){	     	//STEP 1
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get()<)
+			Driver.stopMotor();
+		if(timer.get() >  && timer.get() <= ){		//STEP 2
+			Driver.tankDrive(0.5,-0.5);
+		}
+		if(timer.get() >  && timer.get() <= ){		//STEP 3
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get() <= )
+			Driver.stopMotor();
+		if(timer.get()>0 && timer.get() <= ){	     	//STEP 4
+			Driver.tankDrive(-0.5,0.5);
+		}
+		if(timer.get()> && timer.get()<)
 			Driver.stopMotor();
