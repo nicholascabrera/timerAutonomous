@@ -1,35 +1,29 @@
     ///////////PATH A11///////////
-    if(timer.get()>0 && timer.get() <= .9){	     		//.428575(s)- .5(s) interval STEP 1
+    if(timer.get()>0 && timer.get() <= 5){	     		//.428575(s)- .5(s) interval STEP 1
 			Driver.arcadeDrive(-0.5, 0);
 		}
-		if(timer.get()>.9 && timer.get()<=1.65)
+		if(timer.get()>5 && timer.get()<=5.75)
 			Driver.stopMotor();
-		if(timer.get() > 1.65 && timer.get() <= 2.65){		//.5(s)- .5(s) interval STEP 2
+		if(timer.get() > 5.75 && timer.get() <= 6.25){		//.5(s)- .5(s) interval STEP 2
 			Driver.tankDrive(-0.5,0.5);
 		}
-		if(timer.get() > 3.4 && timer.get() <= 4.7){		//.85714(s)- .5(s) interval STEP 3
+		if(timer.get() > 6.25 && timer.get() <= 6.75){		//.85714(s)- .5(s) interval STEP 3
 			Driver.arcadeDrive(-0.5, 0);
 		}
-		if(timer.get()>4.7 && timer.get() <= 5.45)
+		if(timer.get()>6.75 && timer.get() <= 7.5)
 			Driver.stopMotor();
-		if(timer.get() > 5.45 && timer.get() <= 6.35){		//.5(s)- .5(s) interval STEP 4
-			Driver.tankDrive(0.5,-0.5);				
-		}
-		if(timer.get()>6.35 && timer.get()<=7.1)
-          		Driver.stopMotor();
-		if(timer.get() > 7.1 && timer.get() <= 8.6){		//5.0(s)- .5(s) interval STEP 5
+		
+	///////////PATH A21///////////	
+	if(timer.get()>0 && timer.get() <= ){	     		//.428575(s)- .5(s) interval STEP 1
 			Driver.arcadeDrive(-0.5, 0);
 		}
-		if(timer.get()>8.6 && timer.get() <= 9.35)
+		if(timer.get()> && timer.get()<=)
 			Driver.stopMotor();
-    if(timer.get() > 9.35 && timer.get() <= ){		//.5(s)- no interval STEP 6
+		if(timer.get() >  && timer.get() <= ){		//.5(s)- .5(s) interval STEP 2
 			Driver.tankDrive(-0.5,0.5);
 		}
-		if(timer.get()>12.5 && timer.get() <= 13)
+		if(timer.get() >  && timer.get() <= ){		//.85714(s)- .5(s) interval STEP 3
+			Driver.arcadeDrive(-0.5, 0);
+		}
+		if(timer.get()> && timer.get() <= )
 			Driver.stopMotor();
-		if(timer.get()>13 && timer.get() <= 13.5)
-			Robotmap.liftMotor.set(0.5);			//lift goes up
-		if(timer.get()>13.5 && timer.get() <= 14.5)
-			Robotmap.inTakeA.set(-1);			//Starts intake motor-launches power cube
-		if(timer.get()>14.5 && timer.get() <= 15)
-			Robotmap.inTakeA.set(0);
