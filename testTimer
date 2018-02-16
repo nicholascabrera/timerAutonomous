@@ -1,5 +1,5 @@
     ///////////Test 1///////////
-    if(timer.get()>0 && timer.get() <= 1){	     		//goes at 50% speed for 1 second
+    if(timer.get()>0 && timer.get() <= 1){	     		//goes at 50% speed for 1 second(30")
 			Driver.arcadeDrive(0.5, 0);
 		}
 		if(timer.get()>1 && timer.get()<=1.75)
