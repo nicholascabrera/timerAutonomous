@@ -1,0 +1,34 @@
+    ///////////Test 1///////////
+    if(timer.get()>0 && timer.get() <= 1){	     		//goes at 50% speed for 1 second
+			Driver.arcadeDrive(0.5, 0);
+		}
+		if(timer.get()>1 && timer.get()<=1.75)
+			Driver.stopMotor();
+      
+    ///////////Test 2///////////
+     if(timer.get()>0 && timer.get() <= 1){	     		//goes at 100% speed for 1 second
+			Driver.arcadeDrive(1.0, 0);
+		}
+		if(timer.get()>1 && timer.get()<=1.75)
+			Driver.stopMotor();
+      
+    ///////////Test 3///////////
+    if(timer.get() > 0 & timer.get() <= .5){		    //turns counterclockwise at 50% speed for .5 seconds
+			Driver.tankDrive(-0.5,0.5);
+		}
+		if(timer.get()>2.75 && timer.get()<=3.5)
+			Driver.stopMotor();
+      
+    ///////////Test 4///////////
+    if(timer.get() > 0 && timer.get() <= .3){		   //turns counterclockwise at 100% speed for .3 seconds
+			Driver.tankDrive(-1,1);
+		}
+		if(timer.get()>2.75 && timer.get()<=3.5)
+			Driver.stopMotor();
+      
+      ///////////See if the motors are switched again///////////
+      if(timer.get()>0 && timer.get() <= .5){	     		//goes at 30% speed for .5 second
+			Driver.arcadeDrive(-0.3, 0);
+		}
+		if(timer.get()>.5 && timer.get()<=1.25)
+			Driver.stopMotor();
